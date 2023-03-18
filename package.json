@@ -4,17 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server",
     "client": "npm run start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-=======
-    "start": "node server/server.js",
-    "server": "nodemon server/server.js",
-    "client": "npm run start --prefix client",
     "dev": "concurrently \"npm start\" \"npm run client\""
->>>>>>> fb8a2f28ed807f0ecc47de0d56324dc5ddd4fc73
   },
   "author": "",
   "license": "ISC",
